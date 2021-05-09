@@ -1,38 +1,78 @@
 .App {
-  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  width: 200px;
+  height: 230px;
+}
+.App-header {    background: white;
+  width: 100%;
+  text-align: center;
+  ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+    position: absolute;
+    top: 170px;
+    left: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+}
+.list {
+  background: #1567e459;
+    width: 100%;
+    text-align: center;
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.list input {
+  width: 75%;
+  border-radius: 20px;
+  font-size: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.task_list {
+  margin-left: 10px;
+  margin-right: 20px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+ span{
+   margin-left: 10px;
+ }
+
+ .btns{
+  margin-right: 20px;
+}
+img{
+  width: 25px;
+  height: 25px;
+}
+#remove {
+  font-size: 1rem;
+  height: 2rem;
+   width: fit-content;
+ }
+ 
+ #complete{
+  font-size: 1rem;
+  height: 2rem;
+  width: fit-content;
+ }
+
+.strike{
+  text-decoration: line-through;
 }
